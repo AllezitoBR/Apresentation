@@ -1,0 +1,276 @@
+/*Geral*/
+body, p, h1, h2, input, textarea{
+    margin:0;
+    font-family: roboto;
+}
+
+h2{
+    font-size: 30px;
+}
+
+/*navbar*/
+#navbar {
+ background-color: blue;
+ color: white;
+ padding: 0 15px;
+ height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 80px;
+    font-size: 27px;
+}
+
+#navbar img {
+    height: 35px;
+    position: absolute;
+    top: 10px;
+}
+
+#navbar nav {
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li {
+    margin: 0 10;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    font-weight: bold
+}
+
+#navbar-list li a:hover {
+    color: black;
+}
+
+/*banner*/
+#main-banner {
+    height: 70vh;
+    background-image: url('../images/bg-projeto.jpg');
+    background-size: cover;
+    padding-top: 15vh;
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+
+#about-section a {
+        font-weight: bold;
+        color: white;
+}
+
+#about-section a:hover {
+    color: black;
+}
+
+#banner-info img {
+    height: 95px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#banner-info p {
+    background-color: blue;
+    font-weight: bold;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+}
+
+/* About */
+#about-section {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding-top: 35px;
+    height: 300px;
+}
+
+#about-section h2 {
+    margin-bottom: 10px;
+}
+
+#about-section p {
+    max-width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+#Skills-section {
+    margin-top: -60px;
+    background-color: white;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    }
+
+#Skills-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.skills-container {
+    flex: 1 1 1;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.central {
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+}
+
+.skills-container h3 {
+    color: blue;
+    font: 20px;
+}
+
+.skills-container img {
+    height: 60px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid blue;
+    border-left: 1px solid blue;
+    border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+}
+
+.skills-container p {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+#Skills-section .Subtitle {
+    font-weight: bold;
+    color: blue;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.subtitle2 {
+    font-weight: bold;
+    color: blue;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+/* Jobs */
+
+#jobs-section h2 {
+    text-align: center;
+    color: blue;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#jobs-section p {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+#jobs-section a {
+    font-weight: bold;
+}
+
+#jobs-section a:hover {
+    font-weight: bold;
+    color: blue;
+}
+
+.Jobs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.Job-box {
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 300px;
+    background-size: cover;
+    border-right: 3px solid blue;
+    border-bottom: 3px solid blue;
+    border-radius: 10px;
+}
+
+.Proj1 {
+    background-image: url("../images/proj1.jpg");
+}
+.Proj2 {
+    background-image: url("../images/proj2.jpg");
+}
+.Proj3 {
+    background-image: url("../images/proj3.jpg");
+}
+
+/*Footer*/
+#footer {
+    padding: 50px 0;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+#footer img {
+    height: 70px;
+    margin: 10px 0;
+}
+
+#footer p {
+    margin: 15px;
+}
+
+#footer form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer input, textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+}
+
+#footer span {
+    font-weight: bold;
+}
